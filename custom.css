@@ -1,0 +1,46 @@
+.card_bim {
+  overflow: hidden;
+}
+.bim_header {
+  display: inline-block;
+  margin: 0px 10px;
+  transition: all 0.3s;
+}
+
+.bim_header.active {
+  font-weight: 600;
+  display: inline-block;
+}
+
+.image_bim {
+  height: 200px;
+  width: 100%;
+  transition: all 0.3s;
+  object-fit: cover;
+}
+.image_bim:hover {
+  transform: scale(1.09);
+}
+.fs-1_bim {
+  font-size: 1rem;
+}
+
+.fs-1_bim:hover {
+  text-decoration: underline !important;
+}
+
+.text_header_card_bim {
+  font-size: 16px;
+  font-weight: bold;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.card_bim {
+  display: block;
+}
+.fw-bold {
+  font-weight: 900;
+}
